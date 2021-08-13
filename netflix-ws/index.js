@@ -30,6 +30,7 @@ app.delete('/', (req, res) => {
     res.json({ mensagem: 'DELETAR SOMENTE O REGISTRO COM O ID'});  
 });
 
+
 app.listen(8000, () => {
     console.log('Meu servidor está funcionando');
 });
